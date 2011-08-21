@@ -1,0 +1,99 @@
+div.box{
+    border:solid 1px #c6cfe1;
+    background:#dfe4ee;
+    padding:10px;
+    color:#333333;
+    margin-bottom:20px;
+}
+div#r_report_form{
+width: 350px;}
+div.box h1 {
+    font-size:14px;
+    color:#000000;
+    padding-bottom:8px;
+    margin-bottom:20px;
+    border-bottom: 1px solid #CCC;
+}
+div.box p{padding-bottom:14px;}
+
+div.box input .input-text{
+    border:1px solid #3b6e22;
+    color:#666666;
+    /*width:180px;*/
+}
+
+div.box label{
+    display:block;
+    margin-bottom:10px;
+    color:#555555;
+}
+
+div.box label span{
+    display:block;
+    float:left;
+    padding-right:6px;
+    width:90px;
+    text-align:right;
+    font-weight:bold;
+    vertical-align: middle;
+}
+.spacer{margin-left:100px;
+    margin-bottom:10px;
+    font-size:11px;
+    color:#555555;
+}
+#generate_report_submit, .green{
+    border-radius: 0;
+    background:url('img/green.gif');
+    padding:0px 6px;
+    border:1px solid #3b6e22;
+    height:24px;
+    line-height:24px;
+    color:#FFFFFF !important;
+    font-size:12px;
+    margin-right:10px;
+    display:inline-block;
+    text-decoration:none;
+}
+
+#r_report_form {
+    margin: auto 50px;
+    margin-top: 50px;
+}
+
+#msg {
+  margin: 30px 40px;
+}
+
+#msg span {
+  padding: auto 10px;
+}
+
+#msg span > img {
+  margin-right: 5px;
+}
+
+.clearfix:after{
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow:hidden;
+}
+.clearfix {display: block;}
+
+.error,
+.alert,
+.notice,
+.success,
+.info { padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert { background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+.notice        { background: #fff6bf; color: #514721; border-color: #ffd324; }
+.success       { background: #e6efc2; color: #264409; border-color: #c6d880; }
+.info          { background: #d5edf8; color: #205791; border-color: #92cae4; }
+.error a, .alert a { color: #8a1f11; }
+.notice a          { color: #514721; }
+.success a         { color: #264409; }
+.info a            { color: #205791; }

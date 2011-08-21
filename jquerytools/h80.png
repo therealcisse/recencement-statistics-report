@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://flowplayer.org/tools/demos/dateinput/large-skin.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+					
+	
+	
+	
+
+		
+	
+		<title>A large skin for Dateinput</title>
+		<meta name="Description" content="HTML5 date input for humans">	
+		<meta name="Keywords" content="jquery dateinput, jquery dateinput, HTML5 date input, javascript date input, skinnable dateinput">
+			
+	
+	
+	
+
+	
+	
+	<meta name="Distribution" content="Global">
+	<meta name="Author" content="Tero Piirainen">
+	<meta name="Robots" content="index,follow"> 
+ 
+	<link rel="shortcut icon" href="http://static.flowplayer.org/tools/img/favicon.ico" type="image/png">
+	<link rel="stylesheet" type="text/css" href="./h80_files/global-0.52.css">	
+
+
+	
+	
+		
+			<script src="./h80_files/jquery.tools.min.js"></script> 
+		
+		 
+	
+	
+	
+	
+	<!-- site specific scripts -->
+	
+	<script type="text/javascript" src="./h80_files/global-0.54.js"></script> 	
+	
+	<script type="text/javascript">			 
+		var account = {admin: false }, v = {
+			ver: "3.2.7",
+			core: "/swf/flowplayer-3.2.7.swf", 
+			
+			controls: "flowplayer.controls-3.2.5.swf",
+			air:  "flowplayer.controls-air-3.2.5.swf",
+			tube:  "flowplayer.controls-tube-3.2.5.swf",
+			
+			content: "flowplayer.content-3.2.0.swf",
+			rtmp: "flowplayer.rtmp-3.2.3.swf",
+			slowmotion: "flowplayer.slowmotion-3.2.1.swf",
+			pseudostreaming: "flowplayer.pseudostreaming-3.2.7.swf"
+		};
+	</script>	
+	
+	
+	
+
+	<!--[if lt IE 7]>
+		<style>
+			@import "http://static.flowplayer.org/css/ie6.css?v=0.2";
+		</style>
+	<![endif]-->
+	
+	<!--[if lt IE 8]>
+		<style>
+			html { overflow-x:hidden; }
+			#content ol, #content ul  {margin-left: 50px; }
+		</style>
+	<![endif]-->	
+
+</head>
+
+<body id="tools_demos_dateinput_large-skin" class="firefox tools">
+
+	<div id="global">
+	
+		<div class="wrap">
+			<ul>
+				<li><a id="global_fp" href="http://flowplayer.org/index.html">Flowplayer</a></li>
+				<li><a id="global_jt" href="http://flowplayer.org/tools/index.html" class="active">jQuery Tools</a></li>
+			</ul>
+			
+			
+				<ul id="acc" class="acc">				
+					<li><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#">Log In</a></li>
+					<li><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#">Sign Up</a></li>
+				</ul>					
+			
+				
+			
+			
+			
+			<form id="gsearch" action="http://flowplayer.org/tools/search.html">
+				<input type="text" name="q" value="">
+				<button type="submit">Search</button>
+			</form>
+		</div>
+		
+	</div>
+	
+	
+	
+		<div>
+		
+		<div id="loginscroll">
+		
+			<div>
+			
+				<!-- login -->
+				<form id="login" name="login" class="account">
+					
+					<p>
+						<input type="text" name="login" value="username or email"><br>
+					</p>
+					
+					<p>
+						<input type="text" name="password" value="password">
+					</p>
+					
+					<label>
+						<input type="checkbox" name="remember" value="true" id="remember"> 
+						Stay signed in
+					</label>
+					
+					<p>
+						<button type="submit">Login</button>
+					</p>
+					
+					<p>
+						<a id="anext" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#">Forgot your password?</a>
+					</p>
+					
+				</form>
+		
+				<!-- forgot password -->
+				<form id="forgot" name="forgot" class="account">
+					
+					<p>
+						<input type="text" name="login" value="your email"><br>
+					</p>
+					
+					<p>
+						<button type="submit">Request password</button>
+					</p>
+					
+					<p>
+						<a id="aprev" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#" class="disabled">« Back to login</a>
+					</p>
+					
+				</form>
+				
+			</div>
+			
+		</div>
+		
+		</div>
+		
+		<!-- signup -->
+		<form id="signup" class="account">
+			
+			<p>
+				<input type="text" name="email" value="email"><br>		
+			</p>
+			
+			<p>
+				You will recieve your password to this address. Address is not made public.
+			</p>
+			
+			<p>
+				<input type="text" name="username" value="username">		
+			</p>
+			
+			<p>
+				Your preferred username that is used when logging in.
+			</p>
+			
+			<p>
+				<button type="submit">Sign Up</button>
+			</p> 
+		
+		</form>
+		
+	
+	
+	<div id="wrap">	
+			
+
+		 
+		
+
+		
+		 
+			<div class="globalnav" id="nav2"> 
+				
+					<a id="jqt1" href="http://flowplayer.org/tools/index.html">Home</a>
+					<a id="jqt2" href="http://flowplayer.org/tools/download/index.html">Download</a>
+					<a id="jqt3" href="http://flowplayer.org/tools/demos/index.html" class="active">Demos</a>
+					<a id="jqt4" href="http://flowplayer.org/tools/documentation/index.html">Documentation</a>
+					<a id="jqt5" href="http://flowplayer.org/tools/forum/">Forums</a>					
+				
+				
+					 
+			</div>					
+		
+
+		
+		
+		
+		
+		<div id="content"> 
+		
+		
+
+
+
+
+<script>
+$(function() {	
+	$("#jqt3").addClass("active");
+	$("<div/>", { id: 'footercrumb' }).appendTo($("#content")).html($("#breadcrumb").html());
+});
+</script>
+
+
+
+	
+	
+	
+	
+	<style>	
+	ul.css-tabs li {
+		list-style-image:none !important;
+		list-style-type:none !important;
+		margin:0 !important;
+	}
+	
+	div.css-panes h2 {
+		margin-top:0px;		
+	}
+	
+	#credits {
+		color:#555;
+		font-size:11px;
+		text-decoration:none;
+	}
+	
+	h1 {
+		background-position:0 25px;		
+	} 
+	</style>
+	
+	
+	<h1 style="background-image:url(/tools/img/hero/dateinput.jpg)">
+		A large skin for Dateinput
+	</h1>	
+	
+	<div id="breadcrumb">
+		
+		
+		
+			<div style="width:260px;float:left">
+				<a href="http://flowplayer.org/tools/demos/dateinput/index.html">« Minimal setup for Dateinput</a>
+			</div>
+		
+		
+		
+		<div style="width:220px;float:left">
+			[ 
+				<a href="http://flowplayer.org/tools/demos/index.html">demo index</a>
+				 |
+					
+						<a href="http://flowplayer.org/tools/dateinput/index.html">dateinput docs</a>
+					
+					
+				
+			]
+		</div>	
+	
+		
+		
+		
+			<div style="float:right;text-align:right">
+				<a href="http://flowplayer.org/tools/demos/dateinput/customize.html">Customizing Dateinput behaviour »</a>
+			</div>
+				
+		
+	</div>
+
+	<br clear="all">
+	
+	<h2 style="margin:0 0 20px 0">
+		<em> 
+			Dateinput demo 2 / 6 
+		</em>:
+		
+		<strong>A large skin for Dateinput</strong>
+	</h2>
+	
+
+
+
+
+<p class="more">
+	Because the calendar is an overlayed element it is possible to use a large layout and the user experience won't suffer - quite the contrary.
+</p>
+
+
+	
+
+
+	<link rel="stylesheet" type="text/css" href="./h80_files/large.css">
+
+
+
+
+
+	<input class="date" id="" maxlength="524288" name="test" size="20" tabindex="0" title="">
+	
+	<script>
+	$(":date").dateinput();
+	</script>
+
+
+<h3>CSS coding</h3>
+
+<p>
+	The initialization of the dateinput is identical to the <a href="http://flowplayer.org/tools/demos/dateinput/index.html">minimal setup</a>, only a different <a href="http://flowplayer.org/tools/demos/dateinput/css/large.css">CSS file</a> has been used for the look and feel of the calendar control. It uses only two <a href="http://flowplayer.org/tools/img/gradient/h30.png">very (0.28 Kb)</a> <a href="http://flowplayer.org/tools/img/gradient/h300.png">small (1.30 Kb)</a> background gradient images and some of the latest CSS techniques. For example:
+</p>
+
+<div class="box code">
+<pre><code class="css DlHighlight"><span class="css-id"><span class="before">#</span>calbody</span> <span class="paren css-block-open">{</span>
+	<span class="comment comment-multiline"><span class="before">/*</span> background gradient with image. background color can be changed <span class="after">*/</span></span>
+	<span class="builtin css-declaration-kw">background<span class="after">:</span></span><span class="css-color-spec"><span class="before">#</span>F5F9FF</span> url(gradient/h300.png) repeat-x;
+
+	<span class="comment comment-multiline"><span class="before">/*</span> CSS shadow for the calendar body <span class="after">*/</span></span>
+	<span class="builtin css-declaration-kw">-moz-box-shadow<span class="after">:</span></span>0 0 <span class="css-length">10<span class="after">px</span></span> <span class="css-length">0<span class="after">px</span></span> <span class="css-color-spec"><span class="before">#</span>ccc</span>;
+	<span class="builtin css-declaration-kw">-webkit-box-shadow<span class="after">:</span></span>0 0 <span class="css-length">10<span class="after">px</span></span> <span class="css-length">0<span class="after">px</span></span> <span class="css-color-spec"><span class="before">#</span>ccc</span>;
+<span class="paren css-block-close">}</span>
+
+<span class="comment comment-multiline"><span class="before">/*</span> styling of the current date <span class="after">*/</span></span>
+<span class="css-id"><span class="before">#</span>caltoday</span> <span class="paren css-block-open">{</span>
+	<span class="comment comment-multiline"><span class="before">/*</span> some shadow for the text <span class="after">*/</span></span>
+	<span class="builtin css-declaration-kw">text-shadow<span class="after">:</span></span>0 <span class="css-length">1<span class="after">px</span></span> 0 <span class="css-color-spec"><span class="before">#</span>000</span>;
+
+	<span class="comment comment-multiline"><span class="before">/*</span> inner shadow <span class="after">*/</span></span>
+	<span class="builtin css-declaration-kw">-moz-box-shadow<span class="after">:</span></span>inset 0 0 <span class="css-length">10<span class="after">px</span></span> <span class="css-length">0<span class="after">px</span></span> <span class="css-color-spec"><span class="before">#</span>000</span>;
+<span class="paren css-block-close">}</span></code></pre>
+</div>
+
+
+<p>
+	Obviously all these nice CSS tricks won't work in every browser. It is up to you to decide what kind of compromises you want to make. Take a look at the <a href="http://flowplayer.org/tools/dateinput/index.html#skinning">skinning documentation</a> for the details of CSS id and class names.
+</p>
+
+<br>
+<div class="box petrol">
+	Here is the <a href="http://flowplayer.org/tools/demos/dateinput/large-skin.htm">standalone version</a> of this demo. You can freely study and copy its source code.
+</div>
+
+		
+		
+
+		
+		<div id="footercrumb">
+		
+		
+		
+			<div style="width:260px;float:left">
+				<a href="http://flowplayer.org/tools/demos/dateinput/index.html">« Minimal setup for Dateinput</a>
+			</div>
+		
+		
+		
+		<div style="width:220px;float:left">
+			[ 
+				<a href="http://flowplayer.org/tools/demos/index.html">demo index</a>
+				 |
+					
+						<a href="http://flowplayer.org/tools/dateinput/index.html">dateinput docs</a>
+					
+					
+				
+			]
+		</div>	
+	
+		
+		
+		
+			<div style="float:right;text-align:right">
+				<a href="http://flowplayer.org/tools/demos/dateinput/customize.html">Customizing Dateinput behaviour »</a>
+			</div>
+				
+		
+	</div></div>  
+			
+		
+		<div id="right">
+			
+
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	<style>
+		#right h2 {
+			cursor:pointer;				
+		}
+	</style>
+	
+	
+
+		<div class="box">
+			<h2>1. Validator</h2>
+
+			<ul style="display: none; ">
+				
+					<li> <a href="http://flowplayer.org/tools/demos/validator/index.html">Minimal setup for Validator</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/validator/custom-validators.html">Custom input types and attributes</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/validator/server-side.html">Combined server and client-side validation</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/validator/custom-effect.html">Displaying all errors inside a single DIV</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/validator/events.html">Validator events in action</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/validator/localize.html" style="border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; ">Localizing the Validator (finnish)</a> </li>
+				
+			</ul>
+
+			<div class="clear"></div>
+			 
+		</div>	
+	
+
+		<div class="box">
+			<h2>2. Rangeinput</h2>
+
+			<ul style="display: none; ">
+				
+					<li> <a href="http://flowplayer.org/tools/demos/rangeinput/index.html">Minimal setup for rangeinput</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/rangeinput/vertical.html">A couple of vertical ranges</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/rangeinput/multiple.html">Multiple small ranges</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/rangeinput/scrollbar.html" style="border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; ">A custom scrollbar for a DIV</a> </li>
+				
+			</ul>
+
+			<div class="clear"></div>
+			 
+		</div>	
+	
+
+		<div class="box">
+			<h2 class="current active">3. Dateinput</h2>
+
+			<ul style="display: block; ">
+				
+					<li> <a href="http://flowplayer.org/tools/demos/dateinput/index.html">Minimal setup for Dateinput</a> </li>
+				
+					<li> <a href="./h80_files/h80.png" class="selected active">A large skin for Dateinput</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/dateinput/customize.html">Customizing Dateinput behaviour</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/dateinput/flight.html">Prompting for start and end dates</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/dateinput/static.html">Calendar that is always visible</a> </li>
+				
+					<li> <a href="http://flowplayer.org/tools/demos/dateinput/localize.html" style="border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; ">Localizing the Dateinput (french)</a> </li>
+				
+			</ul>
+
+			<div class="clear"></div>
+			 
+		</div>	
+		
+	
+	<a id="biglink" href="http://flowplayer.org/tools/demos/index.html">
+		« Demo Index
+	</a>
+	
+	<!-- accordion setup -->
+	<script>
+		$("#right").tabs("#right ul", {tabs: 'h2', initialIndex: 2});
+		$("#right h2").eq(2).addClass("active");
+		$("#right a[href=" + location.pathname + "]").addClass("selected");
+	</script>
+	
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<script>
+$("#right a[href=/tools/demos/dateinput/large-skin.html]").addClass("active"); 
+</script>
+
+	
+<p style="text-align:center;margin:30px 40px 30px 0">
+	<a style="font-size:10px;color:#666" href="https://github.com/jquerytools/jquerytools/issues">report a bug »</a>
+</p>
+
+<a href="http://flowplayer.org/tools/release-notes/index.html">
+	<img src="./h80_files/banner-small.jpg" style="margin-left:10px" alt="Introducing jQuery Tools 1.2"></a>
+		
+ 
+<p style="margin:15px 0 0 22px">
+	<a style="font-size:11px;color:#333" href="http://flowplayer.org/tools/release-notes/version-1.2.x.html">What's new in v1.2.5 »</a>
+</p>
+
+
+				
+			
+		</div>
+		
+		<div class="clear"></div> 
+		
+		
+		
+		
+			<div id="bull">•</div>
+			
+			<div id="footer">
+				 
+				<h2>jQuery Tools Twitter feed</h2>
+				
+				<div id="twitter">  
+					<div id="tweets"><div class="tweet"><p>The future of jQuery Tools: <a href="http://t.co/vhXy1dH">http://t.co/vhXy1dH</a></p><span class="time">9 weeks ago</span></div><div class="tweet"><p>Technologies to master. Crap to ignore. <a href="http://cloudpanic.com/">http://cloudpanic.com</a></p><span class="time">39 weeks ago</span></div><div class="tweet"><p>@stefanpenner waiting for your contributions. Interested on "live widget support." let's have a quick talk before you begin.</p><span class="time">41 weeks ago</span></div><div class="tweet"><p>jQuery Tools 1.2.5: Scroll with your finger, correct iPad positioning &amp; more. <a href="http://bit.ly/jqt125">http://bit.ly/jqt125</a></p><span class="time">48 weeks ago</span></div></div> 
+		
+					<a id="follow" href="http://twitter.com/jquerytools" title="Follow jQuery Tools on Twitter">
+						jQuery Tools Twitter feed</a>
+				</div> 
+				
+				<br clear="all">
+				
+				<div id="footerlinks"> 
+					<a href="https://github.com/jquerytools/jquerytools">github repository</a>
+					<a href="https://github.com/jquerytools/jquerytools/issues">report a bug</a>
+					<a href="http://flowplayer.org/tools-1.1/index.html">version 1.1</a>
+					<a href="http://cloudpanic.com/">my blog: <strong>cloudpanic.com</strong></a>
+				</div>
+				
+			</div> 	
+		
+		
+		
+		
+		
+		
+		
+	</div><div style="position: absolute; top: 529px; left: 161px; display: none; " id="calroot"><div id="calhead"><a id="calprev"></a><div id="caltitle">August 2011</div><a id="calnext"></a></div><div id="calbody"><div id="caldays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div id="calweeks"><div class="calweek"><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#31">31</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#1">1</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#2">2</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#3">3</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#4">4</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#5">5</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#6">6</a></div><div class="calweek"><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#7">7</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#8">8</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#9">9</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#10">10</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#11">11</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#12">12</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#13">13</a></div><div class="calweek"><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#14">14</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#15">15</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#16">16</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#17">17</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#18">18</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#19">19</a><a id="calcurrent" class="calfocus" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#20">20</a></div><div class="calweek"><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#21">21</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#22">22</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#23">23</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#24">24</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#25">25</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#26">26</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#27">27</a></div><div class="calweek"><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#28">28</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#29">29</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#30">30</a><a href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#31">31</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#1">1</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#2">2</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#3">3</a></div><div class="calweek"><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#4">4</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#5">5</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#6">6</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#7">7</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#8">8</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#9">9</a><a class="caloff" href="http://flowplayer.org/tools/demos/dateinput/large-skin.html#10">10</a></div></div></div></div>
+
+
+	
+	
+	
+	
+		<script type="text/javascript">
+			var _tracker = _gat._getTracker("UA-5877901-1");
+			_tracker._trackPageview();			
+		</script>		
+		
+	 
+	
+	
+
+
+
+</body></html>

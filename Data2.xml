@@ -1,0 +1,14 @@
+<chart>
+	<categories>
+		<category label="week1" />
+		<category label="week2" />
+		<category label="week3" />
+		<category label="week4" />
+	</categories>
+	<dataset SeriesName="Amadou">
+		<set value="29" />
+		<set value="2" />
+		<set value="0" />
+		<set value="6" />
+	</dataset>
+</chart>

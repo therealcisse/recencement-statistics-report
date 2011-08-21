@@ -1,0 +1,18 @@
+<chart caption='Comparison between monthly mentions of ...  and ...' xAxisName='Months'
+       yAxisName='Total monthly mentions'>
+<categories>
+    <category label="June 2011"/>
+    <category label="July 2011"/>
+    <category label="August 2011"/>
+</categories>
+<dataset seriesName="kabila">
+    <set value="1" hoverText="June"/>
+    <set value="1" hoverText="July"/>
+    <set value="2" hoverText="August"/>
+</dataset>
+<dataset seriesName="Amadou">
+    <set value="1" hoverText="June"/>
+    <set value="0" hoverText="0"/>
+    <set value="1" hoverText="August"/>
+</dataset>
+</chart>
